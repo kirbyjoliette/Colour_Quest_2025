@@ -1,0 +1,19 @@
+Stats Test Data (hard coded values)
+
+This data includes the medians so that we can work out if users won a given round in our excel spreadsheet.  You don't need the all_medians list in your code :)
+
+=== Best Possible Score ===
+
+all scores [20, 20, 19, 16, 19]
+all medians: [19, 12, 17, 12, 15]
+highest scores: [20, 20, 20, 16, 19]
+
+=== Worst Possible Score ===
+all scores [0, 0, 0, 0, 0]
+all medians: [19, 12, 17, 12, 15]
+highest scores: [20, 20, 20, 16, 19]
+
+=== Random Scores ====
+all scores [0, 19, 16, 0, 16]
+all medians: [15, 14, 14, 17, 14]
+highest scores: [20, 19, 18, 20, 20]
