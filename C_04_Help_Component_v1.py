@@ -56,12 +56,12 @@ class Play:
         self.game_frame.grid(padx=10, pady=10)
 
         self.heading_label = Label(self.game_frame, text="Colour Quest", font=("Arial", "12"),
-                                   padx= 5, pady=5)
+                                   padx=5, pady=5)
         self.heading_label.grid(row=0)
 
         self.hints_button = Button(self.game_frame, font=("Arial", "14", "bold"),
-                                    text="Hints", width=15. fg="#FFFFFF",
-                                    bg="FF8000", padx=10, pady=10, command=self.to_hints)
+                                   text="Hints", width=15, fg="#FFFFFF",
+                                   bg="FF8000", padx=10, pady=10, command=self.to_hints)
         self.hints_button.grid(row=1)
 
     def to_hints(self):
